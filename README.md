@@ -1,6 +1,13 @@
 A project to test out jsdocs.
 
-Use npm to add jsdocs to the project. Run jsdocs and pass the src folder to generate documentation (use npm run src).
+Use npm to add jsdocs to the project. Find installation instructions here: https://github.com/jsdoc/jsdoc
 
-Open the index.html in the browser to see the generated docs. 
-You can use wslview if running it from Windows Subsystem for Linux (WSL).
+The package.json file has a script defined called "myJsdoc", which runs jsdoc. Use it like this:
+npm run myJsdoc src
+
+That will create a folder called "out", which will contain html pages based on the jsdocs of the files in your src folder. 
+
+To view the html you can open the files in the browser. For example, if you're using Windows Subsystem for Lunux (WSL). you can run this command from within the out folder:
+wslview index.html
+
+Here is the website where you can learn more about jsdocs: https://jsdoc.app/

@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "jsdoc": "^4.0.3"
+  },
+  "scripts":{
+    "myJsdoc": "./node_modules/jsdoc/jsdoc.js"
+  }
+}

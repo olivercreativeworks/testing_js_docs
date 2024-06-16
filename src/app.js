@@ -21,4 +21,11 @@ add(1, 2)
  * The best number
  * @type {number} 
  */
-const num = 14
+export const num = 14
+
+/**
+ * @return {string}
+ */
+export function bar(){
+  return "Hello world"
+}
